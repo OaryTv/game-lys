@@ -1,0 +1,53 @@
+html{
+	background-color: #282b30;
+	color: white;
+	font-family: monospace;
+}
+.active{
+  background-color: blueviolet;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1e2124;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+li a:hover{
+	transition: 500ms;
+	background-color: blueviolet;
+	font-size: 19px;
+}
+/* 00000000000000000000000000000000000000000000 */
+.news {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: 	#1e2124;
+	font-family: monospace;
+}
+.news > h1,
+.update {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+.update {
+	color: white;
+    background: #36393e;
+}
+.update > h2,
+.update > p {
+    margin: 0.2rem;
+    font-size: 1rem;
+}
