@@ -114,9 +114,13 @@ div.discord{
 }
 h1.name{
 	margin-top: 15%;
-	font-size: 50px;
+	font-size: 75px;
 }
 h2.desc{
+	margin-top: -4%;
 	background: none;
 	font-family: monospace;
+}
+a.link{
+	color: yellowgreen;
 }
